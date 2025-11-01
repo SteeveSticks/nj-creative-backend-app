@@ -27,4 +27,4 @@ ENV PORT=8787
 EXPOSE 8787
 
 # Start the application
-CMD ["node", "dist/index.js"]
+CMD ["node", "--experimental-specifier-resolution=node", "dist/index.js"]
